@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wulfenitemod",
+  "name": "Wulfenite Mod",
+  "description": "Xenocorpse's first mod!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Xenocorpse"],
+  "credits": "Me, Myself, and I for learning java FINALLY.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
