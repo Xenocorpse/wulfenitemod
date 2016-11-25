@@ -25,7 +25,7 @@ public class WulfeniteMod {
 
 	public static final String modId = "wulfenite";
 	public static final String name = "Wulfenite Mod";
-	public static final String version = "1.0.0";
+	public static final String version = "0.4.0";
 
 	@Mod.Instance(modId)
 	public static WulfeniteMod instance;
