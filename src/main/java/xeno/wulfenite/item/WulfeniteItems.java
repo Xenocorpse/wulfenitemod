@@ -4,6 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -43,6 +44,16 @@ public class WulfeniteItems {
 	public static ItemShovel shovelmolybdenum;
 	public static ItemAxe axemolybdenum;
 	public static ItemHoe hoemolybdenum;
+	
+	// Scythes
+	public static ItemScythe scythewood;
+	public static ItemScythe scythestone;
+	public static ItemScythe scytheiron;
+	public static ItemScythe scythegold;
+	public static ItemScythe scythediamond;
+	public static ItemScythe scytheruby;
+	public static ItemScythe scythemolybdenum;
+	public static ItemScythe scythediamonite;
 	
 	// Armor items
 	// Diamonite
@@ -105,6 +116,17 @@ public class WulfeniteItems {
 		shovelmolybdenum = (ItemShovel) register(new ItemShovel(WulfeniteMod.molybdenumToolMaterial, "shovelmolybdenum").setCreativeTab(WulfeniteMod.tabwulfenite));
 		axemolybdenum = (ItemAxe) register(new ItemAxe(WulfeniteMod.molybdenumToolMaterial, "axemolybdenum").setCreativeTab(WulfeniteMod.tabwulfenite));
 		hoemolybdenum = (ItemHoe) register(new ItemHoe(WulfeniteMod.molybdenumToolMaterial, "hoemolybdenum").setCreativeTab(WulfeniteMod.tabwulfenite));
+		
+		// Init scythes
+		scythewood = (ItemScythe) register(new ItemScythe(ToolMaterial.WOOD, "scythewood").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scythestone = (ItemScythe) register(new ItemScythe(ToolMaterial.STONE, "scythestone").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scytheiron = (ItemScythe) register(new ItemScythe(ToolMaterial.IRON, "scytheiron").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scythegold = (ItemScythe) register(new ItemScythe(ToolMaterial.GOLD, "scythegold").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scythediamond = (ItemScythe) register(new ItemScythe(ToolMaterial.DIAMOND, "scythediamond").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scythemolybdenum = (ItemScythe) register(new ItemScythe(WulfeniteMod.molybdenumToolMaterial, "scythemolybdenum").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scytheruby = (ItemScythe) register(new ItemScythe(WulfeniteMod.rubyToolMaterial, "scytheruby").setCreativeTab(WulfeniteMod.tabwulfenite));
+		scythediamonite = (ItemScythe) register(new ItemScythe(WulfeniteMod.diamoniteToolMaterial, "scythediamonite").setCreativeTab(WulfeniteMod.tabwulfenite));
+		
 		
 		// Init armor
 		// Diamonite

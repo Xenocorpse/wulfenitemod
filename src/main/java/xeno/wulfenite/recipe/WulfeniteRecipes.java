@@ -272,6 +272,47 @@ public class WulfeniteRecipes {
 				"A", 
 				"B", 'A', WulfeniteItems.itemmolybdenum, 'B', Items.STICK);
 		
+		// Scythe recipes
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scythewood),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', Blocks.PLANKS, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scythestone),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', Blocks.COBBLESTONE, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scytheiron),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', Items.IRON_INGOT, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scythegold),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', Items.GOLD_INGOT, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scythediamond),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', Items.DIAMOND, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scythemolybdenum),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', WulfeniteItems.itemmolybdenum, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scytheruby),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', WulfeniteItems.itemruby, 'B', Items.STICK);
+		
+		GameRegistry.addShapedRecipe(new ItemStack(WulfeniteItems.scythediamonite),  
+				"AAA", 
+				" B ", 
+				"B  ", 'A', WulfeniteItems.itemdiamonite, 'B', Items.STICK);
+		
 		//Shapeless recipes
 		GameRegistry.addShapelessRecipe(new ItemStack(WulfeniteItems.itemdiamonite), WulfeniteItems.sharddiamond, WulfeniteItems.sharddiamond, WulfeniteItems.shardwulfenite, WulfeniteItems.shardwulfenite);
 		
